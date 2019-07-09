@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Tienda</title>
+	<script type="text/javascript" src="javascripts/JavaScript.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+</head>
+<body>
+
+	<header>
+		<h3>
+			Users
+		</h3>
+	</header>
+
+
+	<content id="MainContainer">
+		<section id="UsersSection">
+			<p>if you want to get contact information  to specific users. Just select group and then select him from the list below</p>
+
+			<label for="">User Name </label>
+			<input type="text" name="filterInput" id ="filterInput" placeholder="Search users..." onkeyup="UserFilter()">
+			<!--
+			<select name="DropboxUsers">
+				  <option value=""></option>
+				  <option value="Students">Students</option>
+				  <option value="Teachers">Teachers</option>
+				  <option value="Directos">Directos</option>
+			</select>. --->
+
+			<content>
+				<ul id="ListOfUsers" class="collection">
+					
+				</ul>
+			</content>
+		</section>
+
+		
+		<aside id="UserInfo">
+		<img id = "UserImg" src="">
+		<content>
+			
+		</content>
+		<content>
+			<p><b> Gender </b></p>
+			<p id="Gender"></p>
+		</content>
+		<content>
+			<p><b> Name </b></p>
+			<p id="Name"></p>
+		</content>
+		<content>
+			<p><b> Email Address </b></p>
+			<p id="Email"></p>
+		</content>
+		<content>
+			<p><b> Phone Number </b></p>
+			<p id="Phone"></p>
+		</content>
+		</aside>
+	</content>
+
+	<footer>
+		Derechos Reservados
+	</footer>
+</body>
+</html>

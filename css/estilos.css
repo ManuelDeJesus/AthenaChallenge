@@ -1,0 +1,57 @@
+#UsersSection{
+	position: relative;
+	height: 100%;
+	width: 60%;
+
+}
+
+
+#UserInfo{
+	height: 62%;
+	width: 40%;
+	margin-left: 25px;
+	border-left-style: solid;
+	border-left-color: grey;
+	
+}
+
+section + p{
+	margin-bottom: 20px; 
+}
+
+content > p {
+	padding-left: 25px;
+}
+
+#MainContainer{
+	height: 130%;
+	width: 100%;
+	display: flex;
+}
+
+ul {
+	-webkit-column-count: 2;
+	-webkit-column-gap: 20px;
+	height: 90%;
+}
+
+a {
+	color: black;
+	border-radius: 25px;
+	padding: 10px;
+
+
+}
+
+footer {
+	position: relative;
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+span , input {
+	margin-left: 10px;
+}
+
